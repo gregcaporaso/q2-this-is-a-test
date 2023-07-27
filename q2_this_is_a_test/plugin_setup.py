@@ -23,8 +23,10 @@ plugin = Plugin(
     short_description="",
 )
 
+
 def duplicate_table(table: biom.Table) -> biom.Table:
     return table
+
 
 plugin.methods.register_function(
     function=duplicate_table,
