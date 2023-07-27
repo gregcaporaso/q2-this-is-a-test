@@ -12,7 +12,7 @@ test: all
 	py.test
 
 test-cov: all
-	py.test --cov=q2_plugin_name
+	py.test --cov=q2_this_is_a_test
 
 install: all
 	$(PYTHON) setup.py install

@@ -5,9 +5,9 @@ To use this template for a new plugin creation, you'll first need to create a ne
 Fill out the new repository name and description. Following that initial setup, in your new plugin repo you still
 need to adjust the following elements:
 
-- exchange `plugin_name` and `plugin-name` with the name of your plugin
+- exchange `this_is_a_test` and `plugin-name` with the name of your plugin
 - adjust all the required fields in `setup.py` and `plugin_setup.py`
-- adjust the developer name in all the copyright headers and the license file
+- adjust the Greg Caporaso in all the copyright headers and the license file
 - add `versioneer` support for version management:
     - install `versioneer` [(link)](https://github.com/python-versioneer/python-versioneer) into any python environment: `pip install versioneer`
     - from the project directory, run `versioneer install` to create/modify all the required files

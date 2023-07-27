@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------
-# Copyright (c) 2022, <developer name>.
+# Copyright (c) 2022, <Greg Caporaso>.
 #
 # Distributed under the terms of the Modified BSD License.
 #
@@ -11,20 +11,20 @@ from setuptools import find_packages, setup
 import versioneer
 
 setup(
-    name="q2-plugin-name",
+    name="q2-this-is-a-test",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     license="BSD-3-Clause",
     packages=find_packages(),
-    author="Michal Ziemski",
-    author_email="ziemski.michal@gmail.com",
-    description="This is a template for building a new QIIME 2 plugin.",
-    url="https://github.com/bokulich-lab/q2-plugin-template",
+    author="Greg Caporaso",
+    author_email="greg.caporaso@nau.edu",
+    description="This is a test.",
+    url="https://github.com/",
     entry_points={
-        "qiime2.plugins": ["q2-plugin-name=q2_plugin_name.plugin_setup:plugin"]
+        "qiime2.plugins": ["q2-this-is-a-test=q2_this_is_a_test.plugin_setup:plugin"]
     },
     package_data={
-        "q2_plugin_name": ["citations.bib"],
+        "q2_this_is_a_test": ["citations.bib"],
     },
     zip_safe=False,
 )
